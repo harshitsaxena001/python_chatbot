@@ -1,0 +1,190 @@
+{% extends "base.html" %} {% block title %}Professional AI Assistant{% endblock
+%} {% block content %}
+<div class="app-container">
+  <div class="chat-container">
+    <!-- Enhanced Header -->
+    <div class="chat-header">
+      <div class="header-left">
+        <div class="bot-avatar">
+          <i class="fas fa-robot"></i>
+        </div>
+        <div class="header-info">
+          <h1>AI Assistant Pro</h1>
+          <div class="header-subtitle">
+            <span class="status-dot"></span>
+            Online with Session Memory
+            <span class="badge">v2.0</span>
+          </div>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button
+          class="header-btn"
+          onclick="showStats()"
+          title="Session Statistics"
+        >
+          <i class="fas fa-chart-bar"></i>
+          <span>Stats</span>
+        </button>
+        <button
+          class="header-btn"
+          onclick="clearSession()"
+          title="Clear Session"
+        >
+          <i class="fas fa-refresh"></i>
+          <span>Clear</span>
+        </button>
+        <button class="header-btn" onclick="exportChat()" title="Export Chat">
+          <i class="fas fa-download"></i>
+          <span>Export</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Messages Container -->
+    <div class="messages-container" id="messagesContainer">
+      <div class="message bot-message">
+        <div class="message-avatar">
+          <i class="fas fa-robot"></i>
+        </div>
+        <div class="message-content">
+          <div class="message-bubble">
+            Welcome to AI Assistant Pro! 🚀
+            <br /><br />
+            <strong>New Features:</strong>
+            <br />• 🧠 <strong>Session Memory</strong> - I remember corrections
+            within this session <br />• 📝 <strong>Easy Corrections</strong> -
+            Teach me the right answers instantly <br />• 🔢
+            <strong>Math & Calculations</strong> - Advanced problem solving
+            <br />• 📊 <strong>Session Analytics</strong> - Track our
+            conversation <br /><br />
+            Try: "Calculate 25% of 500" or ask me anything!
+          </div>
+          <div class="message-meta">
+            <div class="message-time">
+              <i class="fas fa-clock"></i>
+              Just now
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Typing Indicator -->
+    <div class="typing-indicator" id="typingIndicator" style="display: none">
+      <div class="typing-dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      AI is thinking...
+    </div>
+
+    <!-- Input Container -->
+    <div class="input-container">
+      <div class="input-wrapper">
+        <textarea
+          id="messageInput"
+          class="message-input"
+          placeholder="Type your message... (Press Enter to send, Shift+Enter for new line)"
+          rows="1"
+        ></textarea>
+        <div class="input-actions">
+          <button
+            class="input-btn attach-btn"
+            onclick="showQuickActions()"
+            title="Quick Actions"
+          >
+            <i class="fas fa-plus"></i>
+          </button>
+          <button
+            id="sendButton"
+            class="input-btn send-btn"
+            title="Send Message"
+          >
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Correction Modal -->
+<div class="modal" id="correctionModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3><i class="fas fa-edit"></i> Teach Me the Right Answer</h3>
+      <button class="close-btn" onclick="closeCorrectionModal()">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="correction-form">
+        <div class="form-group">
+          <label class="form-label">Your Question:</label>
+          <div
+            class="form-input"
+            id="originalQuestion"
+            style="background: #f8fafc; border-style: dashed"
+          ></div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">My Wrong Answer:</label>
+          <div
+            class="form-input"
+            id="wrongAnswer"
+            style="background: #fef2f2; border-style: dashed"
+          ></div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Correct Answer:</label>
+          <textarea
+            id="correctAnswer"
+            class="form-input form-textarea"
+            placeholder="Please provide the correct response..."
+          ></textarea>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-secondary" onclick="closeCorrectionModal()">
+            <i class="fas fa-times"></i> Cancel
+          </button>
+          <button class="btn btn-primary" onclick="submitCorrection()">
+            <i class="fas fa-check"></i> Teach Me
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Stats Modal -->
+<div class="modal" id="statsModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3><i class="fas fa-chart-bar"></i> Session Statistics</h3>
+      <button class="close-btn" onclick="closeStatsModal()">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="stats-panel">
+        <div class="stats-grid" id="statsGrid">
+          <div class="stat-item">
+            <div class="stat-value" id="correctionsCount">0</div>
+            <div class="stat-label">Session Corrections</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value" id="conversationsCount">0</div>
+            <div class="stat-label">Messages Exchanged</div>
+          </div>
+        </div>
+      </div>
+      <div id="recentCorrections"></div>
+    </div>
+  </div>
+</div>
+{% endblock %} {% block extra_js %}
+<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+{% endblock %}
+ 

@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2025-08-12T22:59:47.937389",
+    "session_id": "b61e8ab9d3370e62",
+    "user_message": "hi",
+    "bot_response": "Hello! I'm here to help with any questions you have.",
+    "intent": "greeting",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-08-12T22:59:56.106531",
+    "session_id": "b61e8ab9d3370e62",
+    "user_message": "library timing",
+    "bot_response": "The library is currently CLOSED. It opens at 9 AM.",
+    "intent": "library_hours",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-08-12T23:00:02.752903",
+    "session_id": "b61e8ab9d3370e62",
+    "user_message": "78*78",
+    "bot_response": "The result is: 6084",
+    "intent": "math_calculation",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-08-12T23:00:15.098947",
+    "session_id": "b61e8ab9d3370e62",
+    "user_message": "1=1",
+    "bot_response": "I'm not sure I understand. Can you rephrase or teach me the correct response?",
+    "intent": "fallback",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-08-12T23:00:22.016317",
+    "session_id": "b61e8ab9d3370e62",
+    "user_message": "true",
+    "bot_response": "I'm not sure I understand. Can you rephrase or teach me the correct response?",
+    "intent": "fallback",
+    "feedback": null
+  }
+]

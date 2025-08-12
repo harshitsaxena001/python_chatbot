@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Professional AI Assistant{% endblock %}</title>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>"
+    />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Meta Tags for Production -->
+    <meta
+      name="description"
+      content="Professional AI Assistant with advanced learning capabilities and session memory"
+    />
+    <meta
+      name="keywords"
+      content="AI chatbot, machine learning, professional assistant"
+    />
+    <meta name="author" content="AI Assistant Pro" />
+
+    <!-- Performance optimizations -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+
+    {% block extra_css %}{% endblock %}
+
+    <style>
+      /* Additional notification styles */
+      .notification {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 12px 20px;
+        border-radius: 8px;
+        color: white;
+        font-weight: 500;
+        z-index: 10000;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        animation: slideInRight 0.3s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .notification-success {
+        background: #10b981;
+      }
+      .notification-error {
+        background: #ef4444;
+      }
+      .notification-warning {
+        background: #f59e0b;
+      }
+      .notification-info {
+        background: #06b6d4;
+      }
+
+      @keyframes slideInRight {
+        from {
+          transform: translateX(100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+
+      .message-badge {
+        display: inline-block;
+        padding: 2px 6px;
+        border-radius: 10px;
+        font-size: 0.65rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-left: 8px;
+      }
+
+      .message-badge.session {
+        background: #f59e0b;
+        color: white;
+      }
+
+      .message-badge.learned {
+        background: #10b981;
+        color: white;
+      }
+
+      .correction-item {
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        padding: 12px;
+        margin-bottom: 8px;
+      }
+
+      .correction-question {
+        font-weight: 600;
+        color: #374151;
+        margin-bottom: 4px;
+      }
+
+      .correction-answer {
+        color: #059669;
+        margin-bottom: 4px;
+      }
+
+      .correction-time {
+        font-size: 0.75rem;
+        color: #9ca3af;
+      }
+
+      .action-btn {
+        background: none;
+        border: none;
+        color: #9ca3af;
+        cursor: pointer;
+        padding: 4px 8px;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+      }
+
+      .action-btn:hover {
+        background: #f3f4f6;
+        color: #374151;
+      }
+    </style>
+  </head>
+  <body>
+    {% block content %}
+    <div class="error-boundary">
+      <h3>Template Error</h3>
+      <p>Please ensure the index.html template is properly configured.</p>
+    </div>
+    {% endblock %} {% block extra_js %}{% endblock %}
+  </body>
+</html>
