@@ -1,8 +1,8 @@
 {
-  "how are you": {
-    "response": "I am Great! Thanks for asking",
-    "original_message": "how are you",
-    "learned_at": "2025-08-12T23:10:19.966556",
+  "who is best cricketer": {
+    "response": "Virat Kholi",
+    "original_message": "who is best cricketer",
+    "learned_at": "2025-08-13T23:15:41.094256",
     "usage_count": 0
   }
 }

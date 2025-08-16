@@ -8,12 +8,15 @@ import threading
 from difflib import SequenceMatcher
 from collections import defaultdict
 
+
 import nltk
 import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
+
+
 
 class ChatbotModel(nn.Module):
     """Enhanced neural network model for the chatbot."""
@@ -74,7 +77,7 @@ class EnhancedChatbotAssistant:
         """Load dynamically created intents from user feedback."""
         try:
             if os.path.exists(self.dynamic_intents_file):
-                with open(self.dynamic_intents_file, 'r') as f:
+                with open(self.dynamic_intents_file, 'r', encoding='utf-8') as f:
                     self.dynamic_intents = json.load(f)
                 print(f"✓ Loaded {len(self.dynamic_intents)} dynamic intents")
             else:
@@ -86,7 +89,7 @@ class EnhancedChatbotAssistant:
     def save_dynamic_intents(self):
         """Save dynamically created intents."""
         try:
-            with open(self.dynamic_intents_file, 'w') as f:
+            with open(self.dynamic_intents_file, 'w', encoding='utf-8') as f:
                 json.dump(self.dynamic_intents, f, indent=2)
         except Exception as e:
             print(f"Error saving dynamic intents: {e}")
@@ -96,7 +99,7 @@ class EnhancedChatbotAssistant:
         with self.update_lock:
             try:
                 # Read current intents file
-                with open(self.intents_path, 'r') as f:
+                with open(self.intents_path, 'r', encoding='utf-8') as f:
                     intents_data = json.load(f)
                 
                 # Find the intent and add pattern
@@ -111,7 +114,7 @@ class EnhancedChatbotAssistant:
                 
                 if intent_found:
                     # Write back to file
-                    with open(self.intents_path, 'w') as f:
+                    with open(self.intents_path, 'w', encoding='utf-8') as f:
                         json.dump(intents_data, f, indent=2)
                     
                     # Trigger model retraining in background
@@ -149,7 +152,7 @@ class EnhancedChatbotAssistant:
                         intent_tag = f"custom_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}"
 
                 # Read current intents
-                with open(self.intents_path, 'r') as f:
+                with open(self.intents_path, 'r', encoding='utf-8') as f:
                     intents_data = json.load(f)
                 
                 # Create new intent
@@ -165,7 +168,7 @@ class EnhancedChatbotAssistant:
                 intents_data['intents'].append(new_intent)
                 
                 # Save to file
-                with open(self.intents_path, 'w') as f:
+                with open(self.intents_path, 'w', encoding='utf-8') as f:
                     json.dump(intents_data, f, indent=2)
                 
                 print(f"✓ Created new intent '{intent_tag}' with {len(patterns)} patterns")
@@ -177,6 +180,8 @@ class EnhancedChatbotAssistant:
             except Exception as e:
                 print(f"Error creating new intent: {e}")
                 return None
+            
+
 
     def retrain_model_background(self):
         """Retrain the model in background thread."""
@@ -316,7 +321,7 @@ class EnhancedChatbotAssistant:
         self.intents_responses = {}
 
         if os.path.exists(self.intents_path):
-            with open(self.intents_path, 'r') as f:
+            with open(self.intents_path, 'r', encoding='utf-8') as f:
                 intents_data = json.load(f)
 
             for intent in intents_data['intents']:
@@ -388,11 +393,11 @@ class EnhancedChatbotAssistant:
     def save_model(self, model_path, dimensions_path):
         if self.model:
             torch.save(self.model.state_dict(), model_path)
-            with open(dimensions_path, 'w') as f:
+            with open(dimensions_path, 'w', encoding='utf-8') as f:
                 json.dump({'input_size': self.X.shape[1], 'output_size': len(self.intents)}, f)
 
     def load_model(self, model_path, dimensions_path):
-        with open(dimensions_path, 'r') as f:
+        with open(dimensions_path, 'r', encoding='utf-8') as f:
             dimensions = json.load(f)
         
         self.model = ChatbotModel(dimensions['input_size'], dimensions['output_size'])
@@ -406,7 +411,7 @@ class EnhancedChatbotAssistant:
         """Load learning history from file"""
         try:
             if os.path.exists(self.learning_history_file):
-                with open(self.learning_history_file, 'r') as f:
+                with open(self.learning_history_file, 'r', encoding='utf-8') as f:
                     self.learning_history = json.load(f)
                 print(f"✓ Loaded {len(self.learning_history)} learning entries from history")
             else:
@@ -427,7 +432,7 @@ class EnhancedChatbotAssistant:
                 'usage_count': 0
             }
             
-            with open(self.learning_history_file, 'w') as f:
+            with open(self.learning_history_file, 'w', encoding='utf-8') as f:
                 json.dump(self.learning_history, f, indent=2)
             
             print(f"✓ Saved learning entry: {user_message[:50]}...")

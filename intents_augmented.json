@@ -463,7 +463,8 @@
         "Professor Shashi Mehrotra machine learning",
         "Dr. Mehrotra profile",
         "Shashi Mehrotra background",
-        "Professor Shashi Mehrotra experience"
+        "Professor Shashi Mehrotra experience",
+        "Shashi Mam"
       ],
       "responses": [
         "**Dr. Shashi Mehrotra - Professor CSE:**\n\n👤 **Professional Profile:**\n• **Position:** Professor, Computer Science & Engineering\n• **Current Role:** Since June 2024\n• **LinkedIn:** linkedin.com/in/shashi-mehrotra-259075140\n• **Location:** Modinagar, Ghaziabad\n\n🎓 **Academic Qualifications:**\n• **PhD:** Birla Institute of Technology (2013-2018)\n• **Specialization:** Computer Science and Engineering\n• **Recognition:** Visiting PDF from University of Technology\n\n🔬 **Research Specialization:**\n• **Primary Areas:** Machine Learning, Deep Learning, Natural Language Processing\n• **Focus:** AI-driven solutions and advanced ML algorithms\n• **Applications:** Real-world problem solving through AI/ML\n\n👨‍🎓 **Teaching Excellence:**\n• Machine Learning fundamentals and advanced concepts\n• Deep Learning architectures and applications\n• Natural Language Processing techniques\n• AI algorithm implementation and optimization\n\n📧 **Professional Contact:**\n• **Department:** Computer Science & Engineering\n• **Campus:** SRM Delhi NCR, Modinagar"
@@ -870,6 +871,192 @@
         "SRM NCR Research Excellence:\n\n🔬 **Research Focus Areas:**\n• Computer Science & Engineering\n• Artificial Intelligence & Machine Learning\n• Data Science & Analytics\n• Cyber Security\n• Cloud Computing\n• Electronics & Communication\n• Mechanical Engineering\n• Electrical Engineering\n• Automobile Engineering\n• Biotechnology\n\n🎓 **Doctoral Programs:**\n• PhD in Engineering disciplines\n• PhD in Computer Applications\n• PhD in Management\n• PhD in Sciences\n• Research fellowship opportunities\n• Industry-sponsored research projects\n\n💡 **Research Support:**\n• State-of-the-art research laboratories\n• Advanced instrumentation facilities\n• Research grant assistance\n• International collaboration opportunities"
       ]
     },
+    {
+      "tag": "dr_navin_ahlawat_profile",
+      "patterns": [
+        "Tell me about Dr. Navin Ahlawat",
+        "Who is Dr. Navin Ahlawat",
+        "Navin Ahlawat profile",
+        "Dean Science & Humanities details",
+        "Dr. Ahlawat information",
+        "Navin Ahlawat background",
+        "Dr Navin"
+      ],
+      "responses": [
+        "**Dr. Navin Ahlawat - Dean Science & Humanities:**\n\n👤 **Professional Profile:**\n• **Position:** Dean Science & Humanities, SRMIST Delhi NCR Campus Ghaziabad\n• **Role:** Editor-in-Chief, VIGYAN DARPAN (Science Magazine)\n• **Department:** MCA Department (HOD - Assistant Professor)\n\n📚 **Academic Leadership:**\n• Active in academic events and research methodology lectures\n• Supports various academic initiatives and student development programs\n• Involved in institutional quality assurance and development\n\n🎓 **Contributions:**\n• Regular participation in webinars and academic conferences\n• Mentorship and motivation for academic community development\n• Active role in admissions and academic planning processes\n\n📧 **Professional Contact:**\n• **Department:** Science & Humanities\n• **Campus:** SRM NCR, Modinagar, Ghaziabad"
+      ]
+    },
+    {
+      "tag": "dr_dhowmya_bhatt_profile",
+      "patterns": [
+        "Tell me about Dr. Dhowmya Bhatt",
+        "Who is Professor Dhowmya Bhatt",
+        "Dhowmya Bhatt profile",
+        "Dean IQAC details",
+        "Prof Dhowmya Bhatt information",
+        "IQAC Dean background"
+      ],
+      "responses": [
+        "**Prof. Dr. Dhowmya Bhatt - Professor and Dean IQAC:**\n\n👤 **Professional Profile:**\n• **Position:** Professor and Dean IQAC (Internal Quality Assurance Cell)\n• **Current Role:** Since June 2010 (14+ years experience)\n• **LinkedIn:** linkedin.com/in/prof-dhowmya-bhatt-188a7965\n• **Location:** Ghaziabad, Uttar Pradesh\n\n🎓 **Academic Leadership:**\n• **Dean - Quality Assurance** at SRMIST Delhi NCR Campus\n• Active involvement in institutional development and quality enhancement\n• Leadership in academic excellence and accreditation processes\n\n📚 **Key Responsibilities:**\n• Internal Quality Assurance Cell management\n• Academic coordination and institutional development\n• Quality enhancement initiatives and compliance\n• Faculty development and institutional growth\n\n🔬 **Professional Activities:**\n• Regular participation in academic boot camps and training programs\n• Active role in institutional quality assessment\n• Leadership in various academic committees and initiatives\n\n📧 **Professional Contact:**\n• **Department:** IQAC Office\n• **Campus:** SRM NCR, Modinagar, Ghaziabad"
+      ]
+    },
+    {
+      "tag": "canteen_food_timings",
+      "patterns": [
+        "Canteen timings",
+        "Food timings",
+        "Mess timings",
+        "When is breakfast served",
+        "Lunch timing",
+        "Dinner timing",
+        "Hostel mess timings",
+        "Food service hours",
+        "Cafeteria timing",
+        "Snack timing"
+      ],
+      "responses": [
+        "**SRM NCR Campus Food & Canteen Timings:**\n\n🍽️ **Hostel Mess Timings:**\n• **Breakfast:** 7:45 AM to 9:15 AM\n• **Lunch:** 12:30 PM to 2:00 PM\n• **Evening Snacks:** 5:00 PM to 6:00 PM\n• **Dinner:** 8:00 PM to 9:30 PM\n\n📋 **Food Service Rules:**\n• No wastage of food will be accepted\n• Number of helpings shall not be restricted\n• Fresh and hygienic food served daily\n• Special meals: Chicken/Paneer & Eggs twice a week\n\n🏢 **Campus Cafeteria:**\n• **Java Green Cafeteria:** Available during college hours\n• Dietician-advised nutritious meals\n• Multiple dining options available\n• Snacks and beverages throughout the day\n\n📍 **Additional Services:**\n• Food delivery not allowed in hostel rooms (except medical grounds)\n• Mess Manager available for suggestions and feedback\n• Quality food standards maintained"
+      ]
+    },
+    {
+      "tag": "library_timings",
+      "patterns": [
+        "Library timings",
+        "Library hours",
+        "When is library open",
+        "Library opening hours",
+        "Library schedule",
+        "What time library opens",
+        "Library closing time",
+        "Study hours library",
+        "Library access timing"
+      ],
+      "responses": [
+        "**SRM NCR Central Library Timings:**\n\n📚 **Regular Hours:**\n• **Monday to Friday:** 8:00 AM to 8:00 PM (Study/Reference)\n• **Transaction Hours:** 8:00 AM to 5:00 PM (Monday to Friday)\n• **Saturdays & Sundays:** 8:00 AM to 5:00 PM (Study/Reference)\n\n⏰ **Extended Hours:**\n• Open from morning until late night during regular days\n• Extended hours during examination periods\n• Functions till late night during semester examinations\n\n🔍 **Library Features:**\n• **Collection:** 59,000+ books, journals, magazines\n• **Technology:** RFID technology, automated self-checkout\n• **Area:** 24,579.12 sq. ft. fully air-conditioned\n• **Security:** CCTV surveillance and fire alarm systems\n\n📖 **Services Available:**\n• Digital resources and online access\n• Research assistance and plagiarism detection tools\n• Reference management and document authentication\n• KOHA library management software\n• DELNET database subscription\n\n⚠️ **Note:** Closed on all government declared holidays"
+      ]
+    },
+    {
+      "tag": "placement_statistics_detailed",
+      "patterns": [
+        "Detailed placement statistics",
+        "Placement success rate",
+        "How many students get placed",
+        "Placement percentage details",
+        "Course wise placement data",
+        "Median salary packages",
+        "Graduate employment rate",
+        "Placement cell performance"
+      ],
+      "responses": [
+        "**SRM NCR Detailed Placement Statistics 2024-25:**\n\n📊 **Overall Placement Performance:**\n• **Placement Rate:** 92.5% - 95% students placed\n• **Companies Visited:** 925+ recruiters (315+ active participants)\n• **Total Offers:** 12,000+ job offers\n• **Highest Package:** ₹50 LPA\n• **Average Package:** ₹4.5 - 6.5 LPA\n\n🎓 **Course-wise Placement Data:**\n• **UG 3 Year Course:** 137 students placed, Median ₹4,00,000\n• **UG 4 Year Course:** 178 students placed, Median ₹5,50,000\n• **UG 5 Year Course:** 57 students placed, Median ₹3,90,000\n• **PG 2 Year Course:** 44 students placed, Median ₹5,50,000\n• **MBA Program:** 42 out of 43 students placed, Median ₹5,50,000\n\n💼 **Industry-wise Opportunities:**\n• **IT/Software:** Dominant sector with packages up to ₹50 LPA\n• **Core Engineering:** Packages up to ₹11 LPA\n• **Management:** Competitive packages in consulting and finance\n• **Internships:** 1,400+ paid internship opportunities\n\n🏢 **Top Recruiters 2024:**\n• **Premium:** Amazon, Microsoft, Google, UBER\n• **IT Giants:** TCS, Wipro, HCL, Infosys, Cognizant, Tech Mahindra\n• **Core Companies:** L&T, Siemens, BHEL, Toshiba\n• **Consulting:** Genpact, Accenture, Deloitte\n• **Others:** Swiggy, Puma, ICICI Securities, Airtel\n\n📈 **Placement Support:**\n• Dedicated placement cell with industry connections\n• Regular training, workshops, and skill development programs\n• Mock interviews, GD practice, and aptitude training\n• Industry mentorship and internship facilitation from 2nd year"
+      ]
+    },
+    {
+      "tag": "dr_sanjay_viswanathan_profile",
+      "patterns": [
+        "Tell me about Dr. Sanjay Viswanathan",
+        "Who is Director SRM NCR",
+        "Director profile SRM NCR",
+        "Dr. Sanjay Viswanathan background",
+        "SRM NCR Director information"
+      ],
+      "responses": [
+        "**Dr. Sanjay Viswanathan - Director:**\n\n👤 **Professional Profile:**\n• **Position:** Director, SRM Institute of Science & Technology, Delhi-NCR Campus\n• **Experience:** 28+ years (1997 - Present)\n• **LinkedIn:** linkedin.com/in/directorsrmncr\n• **Location:** Ghaziabad, UP\n\n🎓 **Academic Background:**\n• **PhD:** Business Administration and Management, General from Chaudhary Charan Singh University\n• **Leadership Role:** Pioneering leadership in internationalization and institutional capacity building\n\n💡 **Key Achievements:**\n• At the helm of academic and operational success since institution's inception\n• Mentor and guide with commitment to highest level of integrity\n• True custodian of SRM IST UP Campus educational ecosystem\n• Over three decades of educational leadership experience\n\n📧 **Contact:**\n• **Email:** director@srmup.in\n• **Office:** Director's Office, SRM NCR Campus"
+      ]
+    },
+    {
+      "tag": "dr_chiranjit_dutta_profile",
+      "patterns": [
+        "Tell me about Dr. Chiranjit Dutta",
+        "Who is Chiranjit Dutta",
+        "Associate Professor CSE Chiranjit Dutta",
+        "Dr. Dutta profile CSE"
+      ],
+      "responses": [
+        "**Dr. Chiranjit Dutta - Associate Professor CSE:**\n\n👤 **Professional Profile:**\n• **Position:** Associate Professor in CSE at SRM Institute of Science & Technology\n• **Experience:** Since January 2011 (14+ years)\n• **LinkedIn:** linkedin.com/in/cd003\n• **Location:** Ghaziabad, Uttar Pradesh\n\n🎓 **Academic Qualifications:**\n• **B.Tech:** Computer Science and Engineering from West Bengal University of Technology, Kolkata (2004-2008)\n• **Professional Focus:** Result-oriented person passionate towards academics and research\n\n🔬 **Professional Identity:**\n• Currently working as Associate Professor at SRM Institute of Science & Technology, Delhi NCR Campus\n• Strong academic and research background\n• Dedicated to student development and academic excellence\n\n📧 **Department:** Computer Science & Engineering, SRM NCR Campus"
+      ]
+    },
+    {
+      "tag": "upendra_prajapati_profile",
+      "patterns": [
+        "Tell me about Dr. Upendra Prajapati",
+        "Who is Upendra Prajapati",
+        "Assistant Professor Upendra Prajapati",
+        "Dr. Prajapati research profile"
+      ],
+      "responses": [
+        "**Dr. Upendra Prajapati - Assistant Professor:**\n\n👤 **Professional Profile:**\n• **Position:** Assistant Professor at SRM Institute of Science and Technology, Delhi-NCR\n• **Current Role:** Since September 2024 (Recent Joining)\n• **LinkedIn:** linkedin.com/in/upendra-prajapati-106319b4\n• **Location:** Delhi, India\n\n🎓 **Academic Qualifications:**\n• **PhD:** Computer Science from South Asian University (2018-2025)\n• **MSc:** Computer Science from South Asia University New Delhi (2016-2018)\n• **BSc:** Information Technology from Loard Buddha Foundation Maitidevi Kathmandu Nepal (2011-2014)\n\n🔬 **Research Specialization:**\n• **Primary Areas:** Software Defined Network, Resource Optimisation, IoT, Wireless Network, Tactile Internet\n• **Focus:** Advanced networking technologies and optimization\n\n🏆 **Awards & Recognition:**\n• **SAARC India Silver Jubilee Scholarship** - Government of India and South Asian University (August 2016)\n• **PhD Fellowship** - South Asian University (August 2018)\n\n🌐 **Languages:** English (Professional), Hindi (Full Professional), Nepali (Full Professional)"
+      ]
+    },
+    {
+      "tag": "dr_kavita_singh_profile",
+      "patterns": [
+        "Tell me about Dr. Kavita Singh",
+        "Who is Dr. Kavita Singh",
+        "Associate Professor Kavita Singh",
+        "Management faculty Kavita Singh"
+      ],
+      "responses": [
+        "**Dr. Kavita Singh - Associate Professor:**\n\n👤 **Professional Profile:**\n• **Position:** Associate Professor, SRM University, Delhi-NCR\n• **Experience:** 13+ years in academia\n• **LinkedIn:** linkedin.com/in/dr-kavita-singh-5a095327\n• **Department:** Faculty of Management Studies (FMS)\n\n🎓 **Academic Background:**\n• **Education:** Bhagat Phool Singh Mahila University\n• **Specialization:** Management Studies\n• **Current Institution:** SRM University Haryana (SRMUH)\n\n💼 **Professional Experience:**\n• Over 13 years of academic and research experience\n• Active involvement in management education\n• Contributor to business and management studies\n\n📧 **Department:** Faculty of Management Studies, SRM NCR Campus"
+      ]
+    },
+    {
+      "tag": "ramendra_pati_pandey_profile",
+      "patterns": [
+        "Tell me about Ramendra Pati Pandey",
+        "Who is Professor Ramendra Pati Pandey",
+        "Chemistry Professor Ramendra Pandey",
+        "Dr. Pandey research profile"
+      ],
+      "responses": [
+        "**Prof. Ramendra Pati Pandey - Professor:**\n\n👤 **Professional Profile:**\n• **Position:** Professor at SRM University, Delhi-NCR, Sonepat\n• **LinkedIn:** linkedin.com/in/ramendra-pati-pandey-a8188938\n• **Location:** Delhi, India\n• **Specialization:** Chemistry and Molecular Biology\n\n🎓 **Academic Qualifications:**\n• **PhD:** Chemistry from Indian Institute of Technology Dhanbad\n• **Research Focus:** Interface between academia and industry\n\n🔬 **Research Expertise:**\n• **Primary Skills:** Chemistry, Science, Molecular Biology, Molecular Diagnostics (MS), Cell Biology\n• **Professional Experience:** Protein purification and characterization in both academic and industrial environments\n• **Management Skills:** Project management and strategic planning\n• **Teaching:** Extensive experience in teaching and mentoring students\n\n💡 **Professional Identity:**\n• Experienced researcher with demonstrated history of working at the interface between academia and industry\n• Strong research professional with expertise in both theoretical and practical applications\n• Skilled in project management and strategic planning along with academic excellence\n\n📧 **Department:** Chemistry/Science Department, SRM University"
+      ]
+    },
+    {
+      "tag": "dr_ravi_tomar_profile",
+      "patterns": [
+        "Tell me about Dr. Ravi Tomar",
+        "Who is Dr. Ravi Tomar",
+        "Ravi Tomar profile",
+        "Chemistry faculty Ravi Tomar",
+        "Dr. Tomar research background",
+        "Assistant Professor Ravi Tomar",
+        "Ravi Tomar qualifications"
+      ],
+      "responses": [
+        "**Dr. Ravi Tomar - Assistant Professor Chemistry:**\n\n👤 **Professional Profile:**\n• **Position:** Assistant Professor, Department of Chemistry\n• **Experience:** November 2023 - Present at SRM NCR Campus\n• **LinkedIn:** linkedin.com/in/drravitomar\n• **Contact:** +919015863257, ravit@srmist.edu.in\n\n🎓 **Academic Qualifications:**\n• **PhD:** Chemistry, University of Delhi (2019)\n• **M.Tech:** Chemical Synthesis and Process Technologies, University of Delhi (2015)\n• **M.S:** Material Sciences, School of Materials Sciences, JAIST, Japan (2015)\n• **B.Sc (Hons.):** Chemistry, Hindu College, University of Delhi (2012)\n\n🔬 **Research Excellence:**\n• **SERB-TARE Fellow** at IIT Delhi (December 2021 - Present)\n• **Adjunct Researcher** at Isfahan University of Technology, Iran\n• **Research Areas:** Ionic Liquids, Catalysis, Medicinal Chemistry, Cancer Research, Drug Discovery, Material Science\n• **Publications:** 40+ research papers and 3 books in esteemed publishers\n• **Citations:** 476+ citations with h-index of 12\n\n🏆 **Editorial Roles & Recognition:**\n• **Academic Editor** at PLOS ONE (September 2024 - Present)\n• **Editorial Board Member** at Scientific Reports, BMC Methods, Current Medicinal Chemistry\n• **Best Teacher Award 2024** recipient at SRM NCR\n• **Young Scientist Award** for research in Ionic Liquids\n\n💡 **Current Projects:**\n• **VBCB-2025 Conference Organizer** - International Conference on Chemical & Biological Sciences\n• Multiple research collaborations with international institutions\n• Active reviewer for prestigious journals including BMC Chemistry, Current Medicinal Chemistry\n\n📧 **Research IDs:**\n• **ORCID:** 0000-0002-3712-6702\n• **Scopus ID:** 55812143100\n• **Google Scholar:** 5DqrxLIAAAAJ"
+      ]
+    },
+    {
+      "tag": "bhawna_faculty_profile",
+      "patterns": [
+        "Tell me about Ms. Bhawna",
+        "Who is Bhawna faculty",
+        "Bhawna Assistant Professor",
+        "Chemistry faculty Bhawna",
+        "Ms. Bhawna profile",
+        "Bhawna SRM NCR faculty"
+      ],
+      "responses": [
+        "**Ms. Bhawna - Assistant Professor Chemistry:**\n\n👤 **Professional Profile:**\n• **Position:** Assistant Professor, Department of Chemistry\n• **Current Role:** Faculty at SRM Institute of Science and Technology, Delhi NCR Campus\n• **Department:** Chemistry Department, SRM NCR Campus, Modinagar\n\n📚 **Academic Role:**\n• Active faculty member in the Chemistry Department\n• Part of the comprehensive faculty team under Dr. Garima Pandey (HOD)\n• Involved in undergraduate and postgraduate chemistry education\n• Contributes to department activities and student mentorship\n\n🔬 **Department Contributions:**\n• Teaching various chemistry subjects to engineering and science students\n• Laboratory supervision and practical sessions\n• Participation in departmental seminars, workshops, and guest lectures\n• Student activity coordination and academic guidance\n\n👥 **Faculty Team Integration:**\n• Works alongside distinguished faculty including Dr. Ravi Tomar, Dr. Pallavi Jain, Dr. Kamakshi\n• Collaborative approach to chemistry education at SRM NCR\n• Active participant in department's academic and research initiatives\n\n📧 **Professional Contact:**\n• **Department:** Chemistry\n• **Campus:** SRM NCR, Modinagar, Ghaziabad\n• **Institution:** SRM Institute of Science and Technology, Delhi NCR Campus"
+      ]
+    },
+    {
+      "tag": "dr_nidhi_kumar_profile",
+      "patterns": [
+        "Tell me about Dr. Nidhi Kumar",
+        "Who is Dr. Nidhi Kumar",
+        "Nidhi Kumar profile",
+        "Mathematics faculty Nidhi Kumar",
+        "Dr. Kumar research background",
+        "Assistant Professor Nidhi Kumar",
+        "Nidhi Kumar qualifications"
+      ],
+      "responses": [
+        "**Dr. Nidhi Kumar - Assistant Professor Mathematics:**\n\n👤 **Professional Profile:**\n• **Position:** Assistant Professor (Mathematics)\n• **Current Role:** August 2023 - Present at SRM Institute of Science and Technology\n• **Email:** nidhik@srmist.edu.in\n• **LinkedIn:** linkedin.com/in/dr-nidhi-kumar-6b8716296\n\n🎓 **Academic Qualifications:**\n• **PhD:** Mathematics from Banasthali University, Rajasthan (December 2009)\n• **Specialization:** Operations Research, Inventory Management, Fuzzy Mathematics\n• **Research Focus:** Fuzzy EOQ models, deteriorating items, inventory optimization\n\n📚 **Research Publications:**\n• **6+ Research Papers** in international journals including:\n  - International Journal of Advanced Modeling and Optimization\n  - American Journal of Operational Research\n  - International Journal of Applied Industrial Engineering\n  - Yugoslav Journal of Operations Research\n  - International Journal of Industrial Engineering Computations\n\n🔬 **Research Expertise:**\n• **Primary Areas:** Fuzzy Inventory Models, Operations Research, Mathematical Optimization\n• **Specialization:** Deteriorating items with price-dependent demand, time-varying holding costs\n• **Applications:** Supply chain optimization, inventory management systems\n\n💼 **Professional Experience:**\n• **Aug 2023 - Present:** Assistant Professor, SRM Institute of Science & Technology\n• **Sep 2021 - June 2023:** Faculty on Contract, Gautam Buddha University, Greater Noida\n• **Sep 2020 - May 2021:** Guest Faculty on Contract, Gautam Buddha University\n• **2011-2014:** Researcher (Inventory Management) under Prof. Chandra K. Jaggi, Delhi University\n• **2010-2011:** Research Associate, Banasthali University, Rajasthan\n\n📊 **Academic Contributions:**\n• Multiple workshop attendances on inventory modeling, mathematical modeling, and LaTeX\n• Conference presentations at national mathematics conferences\n• Active participation in FDPs and webinars on applied mathematics\n\n📧 **Professional Contact:**\n• **Department:** Mathematics\n• **Campus:** SRM NCR, Modinagar, Ghaziabad"
+      ]
+    },
+
     {
       "tag": "goodbye",
       "patterns": [
