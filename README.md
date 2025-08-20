@@ -18,13 +18,21 @@ This project demonstrates a **fully functional chatbot built with Natural Langua
 
 ## 🚀 Problem Statement & Solution
 
-**Challenge**: Building an intelligent conversational AI that understands natural language without relying on existing NLP frameworks or APIs.
+**Challenge**:How can we build a **flexible, real-time learning chatbot** to help freshers find basic details about college specially teachers?
+  
 
 **Solution**: A comprehensive chatbot implementation featuring:
+
+- Web Scrapped all information available on internet about SRM
 - Custom neural network architecture for intent classification
 - Hand-crafted text preprocessing pipeline
 - Advanced pattern matching algorithms
 - Context-aware response generation system
+- Find basic detais about teachers , details about library and canteen etc.
+- Engages users through a modern, responsive UI  
+- Understands intent and executes math/logic queries  
+- Adapts to feedback dynamically (learns from corrections)  
+- Retains short-term conversational context
 
 <div align="center">
   <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="300" alt="AI Processing">
@@ -37,10 +45,10 @@ This project demonstrates a **fully functional chatbot built with Natural Langua
 | Component | Technology | Implementation Details |
 |-----------|------------|----------------------|
 | **NLP Engine** | Custom Python | Tokenization, lemmatization, bag-of-words |
-| **Neural Network** | TensorFlow/Keras | Multi-layer perceptron with dropout |
+| **Neural Network** | TensorFlow/Pytorch | Multi-layer perceptron with dropout |
 | **Intent Classifier** | Custom Algorithm | Pattern matching with confidence scoring |
 | **Response Generator** | Custom Logic | Context-aware reply selection |
-| **GUI Interface** | Tkinter | Professional chat interface with styling |
+| **GUI Interface** | Frontend | Professional chat interface with styling |
 | **Data Management** | JSON/Pickle | Efficient storage and retrieval |
 
 ### Model Architecture Details
@@ -135,10 +143,8 @@ How can we build a **flexible, real-time learning chatbot** to help freshers fin
 tensorflow>=2.0.0
 numpy>=1.19.0
 nltk>=3.5
+pytorch
 
-# GUI & Interface
-tkinter  # Built-in with Python
-pickle   # Built-in with Python
 
 # Data Processing
 json     # Built-in with Python
