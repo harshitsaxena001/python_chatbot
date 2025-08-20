@@ -28,6 +28,7 @@ Ready for **deployment on cloud platforms** like Render, AWS, Azure, Heroku.
 | 📊 **Analytics Dashboard** | View statistics like learned responses, session history, and usage data. |
 | 📥 **Export Conversations** | Download chat transcripts for logging or analysis. |
 | 📩 **Feedback System** | Correct wrong answers or assign responses to new categories interactively. |
+| 👉 **NLP Techniques** | The chatbot mainly relies on basic NLP techniques + intent classification to understand user queries and respond |
 
 ***
 
@@ -82,7 +83,7 @@ How can we build a **flexible, real-time learning chatbot** to help freshers fin
 ***
 ## 🛠 How the Prototype Solves the Problem
 1. **User Input** → User submits a message in the chat UI  
-2. **Intent Detection** → Bot checks `intents_augmented.json` and parses math/logic rules  
+2. **Intent Detection** → Bot checks `intents_augmented.json` 
 3. **Response Generation** → Matches intent or executes logic → sends reply  
 4. **Feedback Handling** → If user corrects, chatbot:
    - Stores fix in *session memory*
