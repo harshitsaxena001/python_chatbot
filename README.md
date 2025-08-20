@@ -69,14 +69,13 @@ How can we build a **flexible, real-time learning chatbot** to help freshers fin
   - Production server setup needed  
   - Persistent JSON storage for adaptive learning
  
-  - **Pending Work**
+***
+***
+ - **Pending Work**
 - Production deployment configuration  
 - Secure env variables  
 - Analytics dashboard (optional)  
 - UI/UX polish for accessibility  
-
-
-
 
 ***
 ***
