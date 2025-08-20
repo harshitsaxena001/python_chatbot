@@ -128,6 +128,19 @@ How can we build a **flexible, real-time learning chatbot** to help freshers fin
 
 
 ***
+##Screenshots:📷
+
+
+<img width="1916" height="972" alt="image" src="https://github.com/user-attachments/assets/46bba591-bce3-4674-aba6-893fbef8091d" />
+<img width="1908" height="916" alt="image" src="https://github.com/user-attachments/assets/b03b8884-743c-403d-acff-0d8507fb1cc4" />
+<img width="1914" height="970" alt="image" src="https://github.com/user-attachments/assets/1a5480c7-0b22-48d2-afdc-ec78c2e65d33" />
+<img width="1914" height="972" alt="image" src="https://github.com/user-attachments/assets/e8164ae0-9244-4e17-8247-11fa75f8a306" />
+<img width="1898" height="968" alt="image" src="https://github.com/user-attachments/assets/6b055819-eac4-4962-b168-bacb33609ab1" />
+<img width="1904" height="971" alt="image" src="https://github.com/user-attachments/assets/39ac9ed8-091e-46d8-8f0a-3a576d70a76c" />
+<img width="1913" height="960" alt="image" src="https://github.com/user-attachments/assets/9109e9e4-0045-4c3a-a7bb-d59989e65a5a" />
+***
+
+
 
 ## 📜 License
 
