@@ -50,7 +50,8 @@ Ready for **deployment on cloud platforms** like Render, AWS, Azure, Heroku.
 ```
 ***
 ## ✅ Problem Statement
-How can we build a **flexible, real-time learning chatbot** to help freshers find basic details about college specially teachers that:
+How can we build a **flexible, real-time learning chatbot** to help freshers find basic details about college specially , teachers that:
+- Find basic detais about teachers , details about library and canteen etc.
 - Engages users through a modern, responsive UI  
 - Understands intent and executes math/logic queries  
 - Adapts to feedback dynamically (learns from corrections)  
