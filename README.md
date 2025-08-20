@@ -48,11 +48,47 @@ Ready for **deployment on cloud platforms** like Render, AWS, Azure, Heroku.
 │   └── images/               # (Optional) screenshot assets
 └── README.md                 # This documentation
 ```
+***
+## ✅ Problem Statement
+How can we build a **flexible, real-time learning chatbot** to help freshers find basic details about college specially teachers that:
+- Engages users through a modern, responsive UI  
+- Understands intent and executes math/logic queries  
+- Adapts to feedback dynamically (learns from corrections)  
+- Retains short-term conversational context  
+***
+***
+## 🚦 Current Progress Status
+- **Core Features**: ✅ Completed
+  - Intent detection via `intents_augmented.json`
+  - Math/logic query execution
+  - Flask-based frontend + JS UI
+  - Session memory + feedback loop
+  - Retraining logic on corrections
+- **UI**: ✅ Basic chat interface working
+- **Deployment**: 🔄 In progress  
+  - Production server setup needed  
+  - Persistent JSON storage for adaptive learning
+ 
+  - **Pending Work**
+- Production deployment configuration  
+- Secure env variables  
+- Analytics dashboard (optional)  
+- UI/UX polish for accessibility  
+
+
+
 
 ***
-
-
-
+***
+## 🛠 How the Prototype Solves the Problem
+1. **User Input** → User submits a message in the chat UI  
+2. **Intent Detection** → Bot checks `intents_augmented.json` and parses math/logic rules  
+3. **Response Generation** → Matches intent or executes logic → sends reply  
+4. **Feedback Handling** → If user corrects, chatbot:
+   - Stores fix in *session memory*
+   - Updates `intents_augmented.json`
+   - Retrains model on the fly  
+5. **Adaptive Learning** → Chatbot improves continuously, no restart needed  
 ***
 
 ## 🛠 Technologies Used
@@ -100,9 +136,13 @@ This project is licensed under the **MIT License** — free to use, modify, and 
 
 ## 📌 Author
 
-**Harshit Saxena** — Developer | AI Enthusiast  
+**Harshit Saxena** — Developer | AI Enthusiast 
 📧 *harshitsaxena0018@gmail.com*  
 🐙 [GitHub](https://github.com/harshitsaxena001) | 💼 [LinkedIn](www.linkedin.com/in/harshit-saxena-195130317)
+
+**Vansh Tyagi** - Developer
+📧 *vanshtyagi.0107@gmail.com*  
+🐙 [GitHub](https://github.com/vansh619-beep) | 💼 [LinkedIn]((www.linkedin.com/in/vansh-tyagi-360057323)
 
 ***
 
