@@ -71,7 +71,7 @@ How can we build a **flexible, real-time learning chatbot** to help freshers fin
  
 ***
 ***
-##Pending Work
+## Pending Work
 - Production deployment configuration  
 - Secure env variables  
 - Analytics dashboard (optional)  
